@@ -1,0 +1,182 @@
+/*
+Theme Name: LifePrints
+Author: Jukhadar
+Author URI: http://jukh.net
+Version: 1.0
+*/
+
+body{
+	background-color: #F7F1D6;
+}
+a {
+	color: #243A76;
+}
+.anousments{
+animation-name: shake;
+}
+.news{
+	background-color: #fff;
+	padding: 1%;
+	background-image: url(images/news.png);
+	height: 101px;
+	background-repeat: no-repeat;
+	
+
+}
+.news p, .news h5{
+	margin-left:16%;
+}
+.news p{
+	font-weight: bold;
+	background-color: #F5CB12;
+	width: 50px;
+	padding-left: 2px;
+}
+
+.phoneNumber{
+	text-align: left;
+	color: #CD605D; 
+}
+
+.phoneNumber a{
+	text-decoration: none;
+	color: #CD605D;
+}
+
+.phoneNumber .fa{
+	margin-right: 2%;
+	color: #CD605D;
+}
+
+.sitelogo{
+		margin-top: 5%;
+	}
+	.site-header{
+		margin-top: 3%;
+		background-color: #F5CB12;
+	    height: 100%; /* Full height */
+	    background-image: url(images/header-cir.png);
+	    background-repeat: no-repeat;
+	    background-position: 604px -97px;
+	}
+	.phoneNumber{
+		font-size: 4.4rem; 
+		text-align: right;
+		color: #414042; 
+	}
+	
+	.site-nav ul{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 20px;
+	    width: 100%;
+	    	   
+	}
+	.site-nav ul li{
+		display: inline;
+		margin-right: 2%;
+	}
+	
+	.postTitle{
+		margin-top: 5%;
+	}
+	
+	.site-footer{
+		margin: 0;
+	    padding: 20px;
+	    width: 100%;
+	    background-color: #F5CB12;
+	    height: 100%; /* Full height */
+	}
+
+.baloon img{
+	position: relative;
+    top: -30px;
+    float: right;
+    width: 200px;
+    height: auto;
+}
+	
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.circle {
+	width: 100px;
+    height: 116px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 65px;
+}
+
+.social li{
+	display: block;
+}
+.social li a{
+	text-decoration: none;
+}
+.sttafPhoto{
+	float: left;
+}
+.sttafPhoto img{
+	position: relative;
+	top: 0px;
+	-webkit-filter: sepia(100%);
+	-webkit-transition: all 0.5s;
+}
+
+.sttafPhoto img:hover{
+
+	-webkit-filter: none;
+	-webkit-transition: all 0.5s;
+}
+
+.staffrow .sttafPhoto{
+	margin-right: 5px;
+}
+
+.newImage {
+	/*float: right;*/
+	margin-bottom: 5%;
+}
+.newImage img{
+	
+	width: 95%;
+	height: auto;
+
+}
+
+/* Cleaner, but slightly less support: use "50%" as value */
+
+@media (max-width: 550px) {
+
+	.news p, .news h5{
+	margin-left:38%;
+	}
+
+	.site-nav ul li{
+		display: block;
+		margin-right: 2%;
+		border-bottom: 1px solid #fff;
+		font-size: 2rem; 
+		
+	}
+	.site-nav ul li a{
+		text-decoration: none;
+	}
+}
+@media (min-width: 750px) {
+	.phoneNumber{
+		float:right;
+	}
+}
